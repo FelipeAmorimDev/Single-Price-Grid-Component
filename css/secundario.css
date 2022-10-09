@@ -1,0 +1,47 @@
+
+
+.assinatura-content{
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px 30px;
+  
+ 
+}
+
+.assinatura-content .assinatura-texto{
+  color: rgba(255, 255, 255, 0.705);
+}
+
+.preco span:last-child{
+  color:rgba(255, 255, 255, 0.705);
+}
+.preco span:first-child{
+  font-size: 2rem;
+}
+
+.sobre-empresa{
+  background-color: #6AC9C7;
+  padding: 30px 30px;
+  
+}
+
+.sobre-texto{
+  max-width: 25ch;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.705);;
+}
+
+.assinar-botao{
+display: block;
+background-color: hsl(71, 73%, 54%);
+color:#f4f4f4;
+width: calc(100% - 40px);
+padding: 10px 20px;
+text-align: center;
+border-radius: 7px;
+font-weight: bold;
+}
+
+.assinar-botao:hover{
+  background-color: #F0F8FF;
+  color:hsl(179, 62%, 43%);
+}

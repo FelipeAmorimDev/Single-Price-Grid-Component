@@ -1,0 +1,32 @@
+.primario-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ffffff;
+ 
+  
+}
+.conteudo{
+  grid-column: 1/-1;
+  padding: 30px;
+}
+
+.primario-titulo{
+  color:hsl(179, 62%, 43%);
+}
+
+.primario-descricao{
+  color:hsl(71, 73%, 54%);
+  font-weight: bold;
+}
+
+.primario-texto{
+  max-width: 60ch;
+  color:hsl(218, 22%, 67%);
+  line-height: 1.4;
+}
+
+@media (max-width:550px){
+  .primario-content{
+    grid-template-columns: 1fr;
+  }
+}
